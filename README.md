@@ -22,9 +22,9 @@ Instead of standard retail metrics (Sales/Profit), this dashboard tracks hardcor
 
 ## 🛠️ Technical Architecture
 * **Tool:** Power BI Desktop
-* **Data Modeling:** Star Schema optimization connecting Fact_Fulfillment tables with Dim_Customers and Dim_Products.
-* **Calculations:** Complex DAX Time-Intelligence and conditional formatting to instantly highlight SLA breaches in red.
+* **Data Modeling:** Architected a high-performance Star Schema, connecting Central Fact Tables (`fact_order_lines`, `fact_orders_aggregate`) with surrounding Dimensions (`dim_customers`, `dim_products`, `dim_date`). 
+* **Calculations:** Complex DAX Time-Intelligence stored cleanly in a dedicated Measures Table, utilizing conditional formatting to instantly highlight SLA breaches.
 * **UI/UX:** High-contrast corporate dark mode designed for clear executive scanning in an operations war room.
 
----
-*Interactive Power BI file (.pbix) included in repository. Download and open in Power BI Desktop to explore the full DAX logic and data model.*
+## 🗄️ Data Architecture Note
+The raw flat files (CSVs) have been fully transformed and loaded directly into the Power BI data model. I designed the relational model from the ground up to optimize query performance and DAX evaluation. Please download the included `.pbix` file to explore the embedded dataset, the Star Schema relationships, and the complete DAX Measures table.
