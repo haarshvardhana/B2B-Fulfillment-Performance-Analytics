@@ -1,5 +1,14 @@
 # 🚚 Apex Logistics: B2B Supply Chain & Fulfillment Command Center
 
+## 📸 Dashboard Preview
+
+<img width="1193" height="793" alt="dashboard_01" src="https://github.com/user-attachments/assets/9aa0b498-689a-4711-80d9-e209bd3650c6" />
+
+<img width="1317" height="593" alt="dashboard_02" src="https://github.com/user-attachments/assets/c6177a8b-7743-44f2-a152-79a31b896e5c" />
+
+<img width="1015" height="735" alt="dashboard_03" src="https://github.com/user-attachments/assets/97019323-62fd-45e5-9b26-2cdf6be2877f" />
+
+
 ## 📌 The Business Problem
 In high-volume B2B logistics, delivery latency is the ultimate metric of system inefficiency. Apex Logistics was experiencing a degradation in Service Level Agreements (SLAs), specifically regarding "On-Time In-Full" (OTIF) deliveries across major regional hubs (Ahmedabad, Surat, Vadodara). 
 
