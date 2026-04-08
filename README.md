@@ -37,3 +37,8 @@ Instead of standard retail metrics (Sales/Profit), this dashboard tracks hardcor
 
 ## 🗄️ Data Architecture Note
 The raw flat files (CSVs) have been fully transformed and loaded directly into the Power BI data model. I designed the relational model from the ground up to optimize query performance and DAX evaluation. Please download the included `.pbix` file to explore the embedded dataset, the Star Schema relationships, and the complete DAX Measures table.
+
+<img width="1188" height="822" alt="The Data Model view" src="https://github.com/user-attachments/assets/d4ebc720-0159-41d6-ab7d-69446ffefdeb" />
+<img width="355" height="493" alt="The Measures Table view" src="https://github.com/user-attachments/assets/66f60678-14bd-4866-b4e2-6610a4a58161" />
+
+
