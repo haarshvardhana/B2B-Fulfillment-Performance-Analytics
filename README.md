@@ -1,14 +1,5 @@
 # 🚚 Apex Logistics: B2B Supply Chain & Fulfillment Command Center
 
-## 📸 Dashboard Preview
-
-<img width="1193" height="793" alt="dashboard_01" src="https://github.com/user-attachments/assets/9aa0b498-689a-4711-80d9-e209bd3650c6" />
-
-<img width="1317" height="593" alt="dashboard_02" src="https://github.com/user-attachments/assets/c6177a8b-7743-44f2-a152-79a31b896e5c" />
-
-<img width="1015" height="735" alt="dashboard_03" src="https://github.com/user-attachments/assets/97019323-62fd-45e5-9b26-2cdf6be2877f" />
-
-
 ## 📌 The Business Problem
 In high-volume B2B logistics, delivery latency is the ultimate metric of system inefficiency. Apex Logistics was experiencing a degradation in Service Level Agreements (SLAs), specifically regarding "On-Time In-Full" (OTIF) deliveries across major regional hubs (Ahmedabad, Surat, Vadodara). 
 
@@ -29,11 +20,19 @@ Instead of standard retail metrics (Sales/Profit), this dashboard tracks hardcor
 * **VOFR% (Volume Fill Rate):** Measures the total volume of goods successfully shipped, highlighting the delta between inventory volume and route efficiency.
 * **Delivery Latency Variance:** Custom measures tracking the exact day-count delay of 13,000 late orders (out of 31,729 total orders).
 
+<img width="1317" height="593" alt="dashboard_02" src="https://github.com/user-attachments/assets/c6177a8b-7743-44f2-a152-79a31b896e5c" />
+
+*Above: Product Insights, Customer Insights, and KPI summary table*
+
 ## 💡 Key Actionable Insights
 1. **The Fulfillment Gap:** While the Volume Fill Rate (VOFR) is exceptionally high (96.6%), the OTIF% is severely lagging (29.0%). This proves the issue is **not inventory scarcity, but route optimization and last-mile delivery failure.**
 2. **Regional Friction Nodes:** Vadodara is experiencing the highest system entropy with OTIF dropping to 27.8%, requiring immediate strategic intervention in local dispatch routing.
 3. **The 1.69-Day Bottleneck:** The systemic delay of 1.69 days across the network is causing compounding failures in B2B client SLAs, with 13,000 orders missing the agreed delivery date.
 4. **VOF% Stability:** Volume Fill Rate remained stable between 96.56% - 96.62% across Q1-Q3, confirming inventory availability is not the bottleneck.
+
+<img width="1015" height="735" alt="dashboard_03" src="https://github.com/user-attachments/assets/97019323-62fd-45e5-9b26-2cdf6be2877f" />
+
+*Above: Late orders distribution (13K total) and VOF% performance trend*
 
 ## 🛠️ Technical Architecture
 * **Tool:** Power BI Desktop
