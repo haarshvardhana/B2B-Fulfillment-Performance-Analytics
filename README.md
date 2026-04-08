@@ -19,15 +19,16 @@ I approached this fulfillment network as a closed thermodynamic system. The targ
 
 ## 📊 Executive KPIs Engineered
 Instead of standard retail metrics (Sales/Profit), this dashboard tracks hardcore supply chain performance indicators:
-* **OTIF% (On Time In Full):** The ultimate measure of supply chain equilibrium. Currently tracking at a critical 29.0% against an 86% target.
+* **OTIF% (On Time In Full):** The ultimate measure of supply chain equilibrium. Currently tracking at a critical 29.0% against an 86% target (defined in dim_targets_orders).
 * **LIFR% (Line Fill Rate):** Measures inventory availability and order completeness (Tracking at 66.0%).
 * **VOFR% (Volume Fill Rate):** Measures the total volume of goods successfully shipped, highlighting the delta between inventory volume and route efficiency.
-* **Delivery Latency Variance:** Custom measures tracking the exact day-count delay of over 13,000 specific orders.
+* **Delivery Latency Variance:** Custom measures tracking the exact day-count delay of 13,000 late orders (out of 31,729 total orders).
 
 ## 💡 Key Actionable Insights
 1. **The Fulfillment Gap:** While the Volume Fill Rate (VOFR) is exceptionally high (96.6%), the OTIF% is severely lagging (29.0%). This proves the issue is **not inventory scarcity, but route optimization and last-mile delivery failure.**
 2. **Regional Friction Nodes:** Vadodara is experiencing the highest system entropy with OTIF dropping to 27.8%, requiring immediate strategic intervention in local dispatch routing.
-3. **The 1.69-Day Bottleneck:** The systemic delay of 1.69 days across the network is causing compounding failures in B2B client SLAs.
+3. **The 1.69-Day Bottleneck:** The systemic delay of 1.69 days across the network is causing compounding failures in B2B client SLAs, with 13,000 orders missing the agreed delivery date.
+4. **VOF% Stability:** Volume Fill Rate remained stable between 96.56% - 96.62% across Q1-Q3, confirming inventory availability is not the bottleneck.
 
 ## 🛠️ Technical Architecture
 * **Tool:** Power BI Desktop
