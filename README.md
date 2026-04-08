@@ -17,6 +17,11 @@ The objective of this project was to architect an executive-level Power BI comma
 ## 🔬 Analytical Approach: The "Physics" of the Supply Chain
 I approached this fulfillment network as a closed thermodynamic system. The target OTIF (86%) represents the state of maximum efficiency. Any deviation from this target is treated as "system entropy." By building dynamic DAX measures, I isolated a critical metric: **an average delivery delay of 1.69 days**, representing the exact friction causing customer churn.
 
+## 📸 Dashboard Preview – Regional Friction Nodes
+<img width="1193" height="793" alt="dashboard_01" src="https://github.com/user-attachments/assets/9aa0b498-689a-4711-80d9-e209bd3650c6" />
+
+*Above: OTIF% split by Ahmedabad (29.3%), Surat (30.1%), and Vadodara (27.8%)*
+
 ## 📊 Executive KPIs Engineered
 Instead of standard retail metrics (Sales/Profit), this dashboard tracks hardcore supply chain performance indicators:
 * **OTIF% (On Time In Full):** The ultimate measure of supply chain equilibrium. Currently tracking at a critical 29.0% against an 86% target (defined in dim_targets_orders).
